@@ -99,7 +99,7 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: "./app/index.html",
       inject: true,
-      title: "Webpack Setup"
+      title: "Trillo (Flexbox Training)"
     })
   ]
 };

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="20" viewBox="0 0 14 20">
+  <defs>
+    <path id="location_on-a" d="M7,-4e-08 C3.12999998,-4e-08 -2.99999998e-08,3.12999997 -2.99999998e-08,6.99999999 C-2.99999998e-08,12.25 7,20 7,20 C7,20 14,12.25 14,6.99999999 C14,3.12999997 10.87,-4e-08 7,-4e-08 Z M7,9.5 C5.62,9.5 4.49999999,8.38 4.49999999,6.99999999 C4.49999999,5.61999998 5.62,4.49999998 7,4.49999998 C8.38,4.49999998 9.5,5.61999998 9.5,6.99999999 C9.5,8.38 8.38,9.5 7,9.5 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-5 -2)">
+    <polygon points="0 0 24 0 24 24 0 24"/>
+    <g transform="translate(5 2)">
+      <mask id="location_on-b" fill="#fff">
+        <use xlink:href="#location_on-a"/>
+      </mask>
+      <rect width="24" height="24" x="-5" y="-2" fill="#080808" mask="url(#location_on-b)"/>
+    </g>
+  </g>
+</svg>
