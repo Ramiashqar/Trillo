@@ -8,7 +8,7 @@
       <mask id="airplane-b" fill="#fff">
         <use xlink:href="#airplane-a"/>
       </mask>
-      <rect width="24" height="24" x="-2" y="-2" fill="#080808" mask="url(#airplane-b)"/>
+      <rect width="24" height="24" x="-2" y="-2" fill="#D8D8D8" mask="url(#airplane-b)"/>
     </g>
   </g>
 </svg>

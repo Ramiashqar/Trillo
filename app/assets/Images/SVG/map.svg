@@ -8,7 +8,8 @@
       <mask id="map-b" fill="#fff">
         <use xlink:href="#map-a"/>
       </mask>
-      <rect width="24" height="24" x="-3" y="-3" fill="#080808" mask="url(#map-b)"/>
+      <use fill="#D8D8D8" xlink:href="#map-a"/>
+      <rect width="24" height="24" x="-3" y="-3" fill="#D8D8D8" mask="url(#map-b)"/>
     </g>
   </g>
 </svg>
