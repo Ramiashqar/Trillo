@@ -1,31 +1,19 @@
 //VARIABLES
 //COLORS
 :root {
-  --color-black: #111111;
-  --color-dark-gray: #333333;
-  --color-gray: #aaaaaa;
-  --color-silver: #dddddd;
+  //Primary colors
+  --color-primary: #E03063;
+  --color-primary-medium: #eb4c79;
+  --color-primary-light: #f38aa8;
+  //Gray colors
+  --color-gray-dark: #333333;
+  --color-gray-medium: #F4F2F2;
+  --color-gray-medium-2: #d6d6d6;
+
+  --color-gray-light: #FAF9F9;
+  //Black and White
   --color-white: #ffffff;
-
-  --color-navy: #001f3f;
-  --color-blue: #0074d9;
-  --color-aqua: #7fdbff;
-  --color-teal: #39cccc;
-
-  --color-olive: #3d9970;
-  --color-green: #2ecc40;
-  --color-lime: #01ff70;
-
-  --color-yellow: #ffdc00;
-  --color-orange: #ff851b;
-
-  --color-red: #ff4136;
-  --color-maroon: #85144b;
-  --color-tamarillo: #8c1515;
-
-  --color-fuchsia: #f012be;
-  --color-purple: #b10dc9;
-  --color-french-rose: #ee3e80;
+  --color-black: #000000;
 }
 
 //GRID

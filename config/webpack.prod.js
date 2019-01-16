@@ -125,7 +125,7 @@ module.exports = env => {
       new HTMLWebpackPlugin({
         template: "./app/index.html",
         inject: true,
-        title: "Webpack Setup"
+        title: "Trillo (Flexbox Training)"
       }),
       new minifyPlugin(),
       // new compressionPlugin({
