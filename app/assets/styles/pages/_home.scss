@@ -3,6 +3,7 @@
   flex-direction: column;
   flex: 1 1 75%;
   background-color: var(--color-gray-medium);
+
   &__images {
     display: flex;
   }
@@ -11,6 +12,9 @@
     justify-content: space-around;
     background-color: var(--color-white);
     // font-size: 1.8rem;
+    @include respond(phone) {
+      height: 7rem;
+    }
     & > * {
       align-self: center;
     }
@@ -60,6 +64,14 @@
     padding: 3rem;
     flex: 0 1 60%;
     box-shadow: 0 1rem 6rem var(--color-gray-medium-3);
+    @include respond(tab-port) {
+      margin-right: 0;
+    }
+    @include respond(phone) {
+      margin: 1rem 2rem;
+      width: 90%;
+
+    }
 
     & > p {
       padding-bottom: 3rem;
@@ -120,6 +132,8 @@
     font-size: 1.3rem;
     position: relative;
     box-shadow: 0 1rem 6rem var(--color-gray-medium-3);
+    width: 90%;
+
     & > blockquote {
       z-index: 1;
       word-wrap: break-word;
@@ -133,6 +147,9 @@
       z-index: 0;
       opacity: 0.3;
       color: var(--color-gray-medium-2);
+    }
+    @include respond(phone) {
+      margin: 1rem 3rem;
     }
     &--user {
       display: flex;
@@ -160,6 +177,9 @@
     }
     &:last-of-type {
       margin-top: 0;
+      @include respond(phone) {
+        margin: 1rem 3rem;
+      }
     }
   }
   &__show-all {
@@ -169,8 +189,8 @@
     border-bottom: 1px solid var(--color-primary);
     padding-bottom: 0.5rem;
     letter-spacing: 0rem;
-    transition: all .5s ease-in-out;
-    margin-top: .8rem;
+    transition: all 0.5s ease-in-out;
+    margin-top: 0.8rem;
     &:hover,
     &:focus {
       letter-spacing: 0.3rem;

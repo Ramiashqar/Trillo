@@ -6,10 +6,16 @@
   justify-content: space-between;
   background-color: white;
   align-items: center;
+  @include respond(phone) {
+    flex-wrap: wrap;
+  }
   &__logo {
     flex: 0 1 10%;
     display: flex;
     justify-content: center;
+    @include respond(phone) {
+      flex: 0 1 20%;
+    }
     &--image {
       align-self: center;
       height: 5.5rem;
@@ -21,6 +27,12 @@
   &__search {
     flex: 0 1 auto;
     display: flex;
+    @include respond(phone) {
+      order: 1;
+      width: 100%;
+      flex: 1 0 auto;
+      justify-content: space-between;
+    }
     &--text {
       color: var(--color-gray-dark);
       width: 45rem;
@@ -30,6 +42,12 @@
       outline: none;
       background-color: var(--color-gray-medium);
       border: 1px solid var(--color-gray-light);
+      @include respond(phone) {
+        width: 80%;
+        border-radius: 0;
+        margin: 0 auto;
+      }
+
       &::placeholder {
         letter-spacing: 0.3rem;
       }
@@ -50,9 +68,14 @@
     &-button {
       border: none;
       margin-left: 2.4rem;
-      background-color: none;
+      background-color: white;
 
       cursor: pointer;
+      @include respond(phone) {
+        margin-left: 0;
+        background-color: white;
+
+      }
       // &--icon {
       // }
     }
@@ -72,7 +95,7 @@
       cursor: pointer;
       height: 8.2rem;
       width: 4rem;
-      &:hover{
+      &:hover {
         background-color: var(--color-gray-medium-2);
       }
       // background-color: red;
@@ -96,7 +119,7 @@
       position: relative;
       height: 8.2rem;
       width: 4rem;
-      &:hover{
+      &:hover {
         background-color: var(--color-gray-medium-2);
       }
 
@@ -127,7 +150,7 @@
       padding: 0.5rem 0;
       cursor: pointer;
       min-width: 5rem;
-      &:hover{
+      &:hover {
         background-color: var(--color-gray-medium-2);
       }
       &--photo {

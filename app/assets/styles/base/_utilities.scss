@@ -43,16 +43,22 @@
   }
 }
 
-.u-container{
+.u-container {
   display: flex;
+  @include respond(tab-port) {
+    flex-direction: column;
+  }
 }
-.u-container-master{
+.u-container-master {
   box-shadow: 0 1rem 8rem var(--color-black);
 }
-.u-container-2{
+.u-container-2 {
   display: flex;
+  @include respond(phone) {
+    flex-direction: column;
+  }
 }
-.u-container-col{
+.u-container-col {
   display: flex;
   flex-direction: column;
   flex: 0 1 40%;
