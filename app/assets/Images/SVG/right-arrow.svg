@@ -8,7 +8,7 @@
       <mask id="right-arrow-b" fill="#fff">
         <use xlink:href="#right-arrow-a"/>
       </mask>
-      <rect width="24" height="24" x="-8" y="-6" fill="#080808" mask="url(#right-arrow-b)"/>
+      <rect width="24" height="24" x="-8" y="-6" fill="#f73131" mask="url(#right-arrow-b)"/>
     </g>
   </g>
 </svg>
