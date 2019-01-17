@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="20" viewBox="0 0 19 20">
+  <defs>
+    <path id="airplane-a" d="M19,14 L19,12 L11,6.99999999 L11,1.49999996 C11,0.66999996 10.33,-4e-08 9.5,-4e-08 C8.67,-4e-08 7.99999999,0.66999996 7.99999999,1.49999996 L7.99999999,6.99999999 L-4e-08,12 L-4e-08,14 L7.99999999,11.5 L7.99999999,17 L5.99999998,18.5 L5.99999998,20 L9.5,19 L13,20 L13,18.5 L11,17 L11,11.5 L19,14 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-2 -2)">
+    <polygon points="0 0 24 0 24 24 0 24"/>
+    <g transform="translate(2 2)">
+      <mask id="airplane-b" fill="#fff">
+        <use xlink:href="#airplane-a"/>
+      </mask>
+      <rect width="24" height="24" x="-2" y="-2" fill="#D8D8D8" mask="url(#airplane-b)"/>
+    </g>
+  </g>
+</svg>

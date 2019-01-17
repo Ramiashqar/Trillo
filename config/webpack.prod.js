@@ -18,7 +18,7 @@ module.exports = env => {
     mode: "production",
     output: {
       filename: "[name]-bundle.js",
-      path: path.resolve(__dirname, "../dist"),
+      path: path.resolve(__dirname, "../docs"),
       publicPath: ""
     },
     module: {
@@ -90,7 +90,7 @@ module.exports = env => {
       ]
     },
     plugins: [
-      new CleanWebpackPlugin(["dist"], {
+      new CleanWebpackPlugin(["docs"], {
         root: path.join(__dirname, "..")
       }),
       new miniCSSExtractPlugin({
@@ -134,7 +134,7 @@ module.exports = env => {
       // new brotliPlugin(),
       new DelWebpackPlugin({
         //here I'm using it just to show all the built files in a much readable matter
-        include: ["dist/trash"],
+        include: ["docs/trash"],
         info: true,
         keepGeneratedAssets: true,
         allowExternal: true

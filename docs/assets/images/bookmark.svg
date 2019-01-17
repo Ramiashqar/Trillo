@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="18" viewBox="0 0 14 18">
+  <defs>
+    <path id="bookmark_border-a" d="M12,-4.00000002e-08 L1.99999998,-4.00000002e-08 C0.89999997,-4.00000002e-08 0.00999997,0.89999997 0.00999997,1.99999997 L-2.99999998e-08,18 L7,15 L14,18 L14,1.99999997 C14,0.89999997 13.1,-4.00000002e-08 12,-4.00000002e-08 Z M12,15 L7,12.82 L1.99999998,15 L1.99999998,1.99999997 L12,1.99999997 L12,15 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-5 -3)">
+    <polygon points="0 0 24 0 24 24 0 24"/>
+    <g transform="translate(5 3)">
+      <mask id="bookmark_border-b" fill="#fff">
+        <use xlink:href="#bookmark_border-a"/>
+      </mask>
+      <rect width="24" height="24" x="-5" y="-3" fill="#080808" mask="url(#bookmark_border-b)"/>
+    </g>
+  </g>
+</svg>
