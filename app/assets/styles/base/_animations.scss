@@ -1,3 +1,22 @@
 //ANIMATIONS
 
 
+@keyframes coloring{
+     0%{
+          color: var(--color-gray-dark);
+     };
+     50%{
+          color: var(--color-primary);
+     };
+     100%{
+          color: var(--color-gray-dark);
+     };
+}
+@keyframes shakeMe{
+     0%{
+          transform: rotate(10deg) scale(1.2);
+     };
+     100%{
+          transform: rotate(-10deg) scale(1.2);
+     };
+}
